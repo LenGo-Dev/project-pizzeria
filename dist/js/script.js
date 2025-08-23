@@ -59,7 +59,7 @@ const select = {
       thisProduct.id = id;
       thisProduct.data = data;
       thisProduct.renderInMenu();
-      this.initAccordion();
+      thisProduct.initAccordion();
 
       console.log('newProduct:', thisProduct);
     }
@@ -81,7 +81,7 @@ const select = {
 
       /* find the clickable trigger (the element that should react to clicking) */
       // const clickableTrigger = thisProduct.element.querySelector('.product__icon');
-      const clickableTrigger = thisProduct.element.querySelector('.product__name.no-spacing');
+      const clickableTrigger = thisProduct.element.querySelector(select.menuProduct.clickable);
 
       /* START: add event listener to clickable trigger on event click */
       clickableTrigger.addEventListener('click', function(event) {
