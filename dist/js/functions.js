@@ -1,6 +1,6 @@
-/* global Handlebars, dataSource */
+/* global dataSource */
 
-const utils = {}; // eslint-disable-line no-unused-vars
+const utils = {};  
 
 utils.createDOMFromHTML = function(htmlString) {
   let div = document.createElement('div');
@@ -9,7 +9,7 @@ utils.createDOMFromHTML = function(htmlString) {
 };
 
 utils.createPropIfUndefined = function(obj, key, value = []){
-  if(!obj.hasOwnProperty(key)){
+  if(!Object.prototype.hasOwnProperty.call(obj, key)){
     obj[key] = value;
   }
 };

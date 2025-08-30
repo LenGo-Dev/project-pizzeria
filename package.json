@@ -20,8 +20,9 @@
         "build:autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
         "build-dev": "npm-run-all build-dev:sass build:autoprefixer",
         "build-dev:sass": "sass --style=expanded --source-map src/sass:dist/css",
-        "watch": "npm-run-all build build-dev -p watch:*",
-        "watch:browsersync": "browser-sync start --server dist --files \"dist/**/*\"",
+        "server": "json-server --port 3131 --no-cors --delay 250 --watch dist/db/app.json",
+        "watch": "npm-run-all build build-dev -p watch:* server",
+        "watch:browsersync": "browser-sync start --server dist --files \"dist/**/*\" --ignore \"dist/db/**/*\"",
         "watch:sassprefixer": "onchange \"src/sass/**/*.scss\" -- npm run build-dev",
         "watch:copy": "onchange -e \"**/sass/**/*\" -e \"**/.gitkeep\" \"src/**/*\" -- copyfiles -a -u 1 {{changed}} dist"
     },
@@ -29,10 +30,13 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "^9.34.0",
         "autoprefixer": "^10.2.4",
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^3.0.4",
         "copyfiles": "^2.1.0",
-        "eslint": "^5.14.1",
+        "eslint": "^9.34.0",
+        "globals": "^16.3.0",
         "globstar": "^1.0.0",
         "html-validate": "^7.3.2",
         "mkdirp": "^0.5.1",
@@ -46,5 +50,8 @@
         "stylelint": "^14.11.0",
         "stylelint-config-standard-scss": "^5.0.0",
         "stylelint-scss": "^4.3.0"
+    },
+    "dependencies": {
+        "json-server": "^0.17.4"
     }
 }
