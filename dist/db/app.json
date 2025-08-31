@@ -206,102 +206,54 @@
     {
       "address": "",
       "phone": "",
-      "totalPrice": 66,
-      "subtotalPrice": 46,
-      "totalNumber": 2,
+      "totalPrice": 29,
+      "subtotalPrice": 9,
+      "totalNumber": 1,
       "deliveryFee": 20,
       "products": [
         {
-          "id": "pizza",
-          "amount": 2,
-          "price": 46,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
+          "id": "cake",
+          "amount": 1,
+          "price": 9,
+          "priceSingle": 9,
+          "name": "Zio Stefano's Doughnut",
+          "params": {}
         }
       ],
       "id": 1
     },
     {
       "address": "",
-      "phone": "456234377",
-      "totalPrice": 66,
-      "subtotalPrice": 46,
-      "totalNumber": 2,
+      "phone": "45698634543",
+      "totalPrice": 29,
+      "subtotalPrice": 9,
+      "totalNumber": 1,
       "deliveryFee": 20,
       "products": [
         {
-          "id": "pizza",
-          "amount": 2,
-          "price": 46,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
+          "id": "cake",
+          "amount": 1,
+          "price": 9,
+          "priceSingle": 9,
+          "name": "Zio Stefano's Doughnut",
+          "params": {}
         }
       ],
       "id": 2
     },
     {
-      "address": "37 Srteer",
-      "phone": "456234377",
-      "totalPrice": 66,
-      "subtotalPrice": 46,
-      "totalNumber": 2,
+      "address": "45Pizza",
+      "phone": "4567392245",
+      "totalPrice": 40,
+      "subtotalPrice": 20,
+      "totalNumber": 1,
       "deliveryFee": 20,
       "products": [
         {
           "id": "pizza",
-          "amount": 2,
-          "price": 46,
-          "priceSingle": 23,
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
           "name": "Nonna Alba's Pizza",
           "params": {
             "sauce": {
@@ -317,8 +269,7 @@
                 "redPeppers": "Red peppers",
                 "greenPeppers": "Green peppers",
                 "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
+                "basil": "Fresh basil"
               }
             },
             "crust": {
@@ -333,33 +284,18 @@
       "id": 3
     },
     {
-      "address": "",
-      "phone": "",
-      "totalPrice": 117,
-      "subtotalPrice": 97,
-      "totalNumber": 7,
+      "address": "45Pizza",
+      "phone": "4567392245",
+      "totalPrice": 40,
+      "subtotalPrice": 20,
+      "totalNumber": 1,
       "deliveryFee": 20,
       "products": [
         {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
           "id": "pizza",
-          "amount": 2,
-          "price": 46,
-          "priceSingle": 23,
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
           "name": "Nonna Alba's Pizza",
           "params": {
             "sauce": {
@@ -375,35 +311,13 @@
                 "redPeppers": "Red peppers",
                 "greenPeppers": "Green peppers",
                 "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
+                "basil": "Fresh basil"
               }
             },
             "crust": {
               "label": "pizza crust",
               "options": {
                 "standard": "standard"
-              }
-            }
-          }
-        },
-        {
-          "id": "salad",
-          "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
-          "name": "Nonno Alberto's Salad",
-          "params": {
-            "ingredients": {
-              "label": "Ingredients",
-              "options": {
-                "cucumber": "Cucumber",
-                "tomatoes": "Tomatoes",
-                "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
               }
             }
           }
@@ -412,33 +326,18 @@
       "id": 4
     },
     {
-      "address": "",
-      "phone": "",
-      "totalPrice": 167,
-      "subtotalPrice": 147,
-      "totalNumber": 11,
+      "address": "45Pizza",
+      "phone": "4567392245",
+      "totalPrice": 58,
+      "subtotalPrice": 38,
+      "totalNumber": 3,
       "deliveryFee": 20,
       "products": [
         {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
           "id": "pizza",
-          "amount": 3,
-          "price": 69,
-          "priceSingle": 23,
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
           "name": "Nonna Alba's Pizza",
           "params": {
             "sauce": {
@@ -454,8 +353,7 @@
                 "redPeppers": "Red peppers",
                 "greenPeppers": "Green peppers",
                 "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
+                "basil": "Fresh basil"
               }
             },
             "crust": {
@@ -469,8 +367,8 @@
         {
           "id": "salad",
           "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
+          "price": 18,
+          "priceSingle": 9,
           "name": "Nonno Alberto's Salad",
           "params": {
             "ingredients": {
@@ -479,53 +377,27 @@
                 "cucumber": "Cucumber",
                 "tomatoes": "Tomatoes",
                 "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
+                "herbs": "Fresh herbs"
               }
             }
           }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
         }
       ],
       "id": 5
     },
     {
-      "address": "",
-      "phone": "",
-      "totalPrice": 144,
-      "subtotalPrice": 124,
-      "totalNumber": 10,
+      "address": "45Pizza",
+      "phone": "4567392245",
+      "totalPrice": 58,
+      "subtotalPrice": 38,
+      "totalNumber": 3,
       "deliveryFee": 20,
       "products": [
         {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
           "id": "pizza",
-          "amount": 2,
-          "price": 46,
-          "priceSingle": 23,
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
           "name": "Nonna Alba's Pizza",
           "params": {
             "sauce": {
@@ -541,8 +413,7 @@
                 "redPeppers": "Red peppers",
                 "greenPeppers": "Green peppers",
                 "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
+                "basil": "Fresh basil"
               }
             },
             "crust": {
@@ -556,8 +427,8 @@
         {
           "id": "salad",
           "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
+          "price": 18,
+          "priceSingle": 9,
           "name": "Nonno Alberto's Salad",
           "params": {
             "ingredients": {
@@ -566,372 +437,13 @@
                 "cucumber": "Cucumber",
                 "tomatoes": "Tomatoes",
                 "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
+                "herbs": "Fresh herbs"
               }
             }
           }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
         }
       ],
       "id": 6
-    },
-    {
-      "address": "",
-      "phone": "",
-      "totalPrice": 167,
-      "subtotalPrice": 147,
-      "totalNumber": 11,
-      "deliveryFee": 20,
-      "products": [
-        {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
-          "id": "pizza",
-          "amount": 3,
-          "price": 69,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
-        },
-        {
-          "id": "salad",
-          "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
-          "name": "Nonno Alberto's Salad",
-          "params": {
-            "ingredients": {
-              "label": "Ingredients",
-              "options": {
-                "cucumber": "Cucumber",
-                "tomatoes": "Tomatoes",
-                "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
-              }
-            }
-          }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
-        }
-      ],
-      "id": 7
-    },
-    {
-      "address": "",
-      "phone": "",
-      "totalPrice": 167,
-      "subtotalPrice": 147,
-      "totalNumber": 11,
-      "deliveryFee": 20,
-      "products": [
-        {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
-          "id": "pizza",
-          "amount": 3,
-          "price": 69,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
-        },
-        {
-          "id": "salad",
-          "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
-          "name": "Nonno Alberto's Salad",
-          "params": {
-            "ingredients": {
-              "label": "Ingredients",
-              "options": {
-                "cucumber": "Cucumber",
-                "tomatoes": "Tomatoes",
-                "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
-              }
-            }
-          }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
-        }
-      ],
-      "id": 8
-    },
-    {
-      "address": "",
-      "phone": "789321765",
-      "totalPrice": 167,
-      "subtotalPrice": 147,
-      "totalNumber": 11,
-      "deliveryFee": 20,
-      "products": [
-        {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
-          "id": "pizza",
-          "amount": 3,
-          "price": 69,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
-        },
-        {
-          "id": "salad",
-          "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
-          "name": "Nonno Alberto's Salad",
-          "params": {
-            "ingredients": {
-              "label": "Ingredients",
-              "options": {
-                "cucumber": "Cucumber",
-                "tomatoes": "Tomatoes",
-                "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
-              }
-            }
-          }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
-        }
-      ],
-      "id": 9
-    },
-    {
-      "address": "73 Street",
-      "phone": "789321765",
-      "totalPrice": 167,
-      "subtotalPrice": 147,
-      "totalNumber": 11,
-      "deliveryFee": 20,
-      "products": [
-        {
-          "id": "breakfast",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zia Giulia's Breakfast",
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "espresso": "Espresso"
-              }
-            }
-          }
-        },
-        {
-          "id": "pizza",
-          "amount": 3,
-          "price": 69,
-          "priceSingle": 23,
-          "name": "Nonna Alba's Pizza",
-          "params": {
-            "sauce": {
-              "label": "Sauce",
-              "options": {
-                "tomato": "Tomato"
-              }
-            },
-            "toppings": {
-              "label": "Toppings",
-              "options": {
-                "olives": "Olives",
-                "redPeppers": "Red peppers",
-                "greenPeppers": "Green peppers",
-                "mushrooms": "Mushrooms",
-                "basil": "Fresh basil",
-                "salami": "Salami"
-              }
-            },
-            "crust": {
-              "label": "pizza crust",
-              "options": {
-                "standard": "standard"
-              }
-            }
-          }
-        },
-        {
-          "id": "salad",
-          "amount": 2,
-          "price": 24,
-          "priceSingle": 12,
-          "name": "Nonno Alberto's Salad",
-          "params": {
-            "ingredients": {
-              "label": "Ingredients",
-              "options": {
-                "cucumber": "Cucumber",
-                "tomatoes": "Tomatoes",
-                "olives": "Olives",
-                "feta": "Feta cheese",
-                "cheese": "Cheese",
-                "herbs": "Fresh herbs",
-                "pepper": "Black pepper"
-              }
-            }
-          }
-        },
-        {
-          "id": "cake",
-          "amount": 3,
-          "price": 27,
-          "priceSingle": 9,
-          "name": "Zio Stefano's Doughnut",
-          "params": {}
-        }
-      ],
-      "id": 10
     }
   ]
 }
