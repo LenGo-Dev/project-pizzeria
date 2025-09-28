@@ -9,6 +9,7 @@ export const select = {
     cart: '#cart',
     pages: '#pages',
     booking: '.booking-wrapper',
+    main: '#main',
   },
   all: {
     menuProducts: '#product-list > .product',
@@ -66,10 +67,16 @@ export const select = {
     address: '[name="address"]',
     bookingSubmit: '.order-confirmation [type="submit"]'
   },
-  nav: {
+  main: {
+    carousel: '.testimonials',
+    boxes: '.nav-box',
     links: '.main-nav a',
   },
-  };
+  nav: {
+    links: '.nav a',
+  },
+  carousel: '.testimonials',
+};
 
 export const classNames = {
   menuProduct: {

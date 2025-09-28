@@ -2,13 +2,23 @@ import {settings, select, classNames} from "./settings.js";
 import Product from './components/Product.js';
 import Cart from './components/Cart.js';
 import Booking from './components/Booking.js';
+import Carousel from "./components/Carousel.js";
 
 const app = {
+
+  initMenu() {
+    for(let productData in this.data.products) {
+      new Product(this.data.products[productData].id, this.data.products[productData]);
+    }
+  },
+
   initPages: function () {
     const thisApp = this;
 
     thisApp.pages = document.querySelector(select.containerOf.pages).children;
     thisApp.navLinks = document.querySelectorAll(select.nav.links);
+    thisApp.mainLinks = document.querySelectorAll(select.main.links);
+    this
 
     const idFromHash = window.location.hash.replace('#/', '');
     console.log('111', idFromHash);
@@ -23,7 +33,7 @@ const app = {
     console.log(pageMatchingHash);
     thisApp.activatePage(pageMatchingHash);
 
-    for(let link of thisApp.navLinks) {
+    for(let link of [...thisApp.navLinks, ...thisApp.mainLinks]) {
       link.addEventListener('click', function (event) {
         const clickedElement = this;
         event.preventDefault();
@@ -54,16 +64,6 @@ const app = {
       );
     }
 
-  },
-
-
-  initMenu: function(){
-    const thisApp = this;
-
-    for(let productData in thisApp.data.products) {
-      // new Product(productData, thisApp.data.products[productData]);
-      new Product(thisApp.data.products[productData].id, thisApp.data.products[productData]);
-    }
   },
 
   initData: function(){
@@ -97,6 +97,7 @@ const app = {
     thisApp.initCart();
     thisApp.initPages();
     thisApp.initBooking();
+    thisApp.initCarousel();
   },
 
   initCart: function(){
@@ -117,8 +118,12 @@ const app = {
 
     const bookingContainer = document.querySelector(select.containerOf.booking);
     thisApp.booking = new Booking(bookingContainer);
+  },
 
+  initCarousel: function(){
+    const thisApp = this;
 
+    thisApp.flickity = new Carousel();
   }
 
 };
