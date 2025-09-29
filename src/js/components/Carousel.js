@@ -20,7 +20,7 @@ class Carousel {
 
   initPlugin() {
     const thisCarousel = this;
-    
+
     thisCarousel.flickity = new Flickity(thisCarousel.dom.carousel, {
       cellAlign: 'left',
       contain: true,
